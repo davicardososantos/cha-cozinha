@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	height: -webkit-fill-available;
+}
+body{
+	cursor: default;
+	border: none;
+	min-width: 100%;
+	font-family: 'SignikaRegular';
+	-webkit-backface-visibility: hidden;
+	background-color: #000;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+a{
+	text-decoration: none !important;
+	color: unset;
+}
+h1{
+	font-family: 'SignikaBold';
+	font-size: 3vw;
+}
+h4{
+	font-family: 'SignikaLight';
+	font-size: 1.6vw;
+}
+
+header{
+	background-color: #FEC600;
+	text-align: center;
+	width: 80%;
+	border-radius: 1vw;
+	margin-left: 10%;
+	margin-top: 2vw;
+	padding: 2vw 0;
+}
+header img{
+	max-width: 5vw;
+}
+  
+.page-code,
+.page-gifts {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+	color: #000;
+	font-size: 1.5rem;
+	background: #FEC600;
+	max-width: 80%;
+	margin-left: 10%;
+	border-radius: 1vw;
+	margin-left: 10%;
+	margin-top: 2vw;
+	padding: 2vw 0;
+}
+.number-code{
+	border: 0.2vw solid #000;
+	border-radius: 1vw;
+	padding: 1vw;
+}
+.number-code legend{
+	margin-left: 1vw;
+	padding: 0 1vw;
+	font-family: 'SignikaSemiBold';
+	font-size: 2.5vw;
+}
+.number-code > div{
+	display: flex;
+	justify-content:center;
+	width: 100%;
+}
+.code-input{
+	height: 6vw;
+	width: 16%;
+	margin: 0 0.3%;
+	border: 0;
+	border-radius: 1vw;
+	text-align: center;
+	font-size: 3vw;
+	font-family: 'SignikaBold';
+}
+.content-area {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+  
+.buttom-send{
+	width: 100%;
+	height: 4vw;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 0.2vw solid #000;
+	border-radius: 1vw;
+	margin-top: 1vw;
+	font-family: 'SignikaBold';
+	font-size: 2vw;
+}
+
+.item-list{
+	display: flex;
+	width: calc(100% - 4vw);
+	flex-wrap: wrap;
+	padding: 2vw;
+}
+.gifts{
+	width: 24%;
+	margin: .5vw .5%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 1vw;
+	/* order: 3; */
+}
+.gifts__img{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gifts__img img{
+	max-width: 50%;
+	max-height: 80%;
+}
+.gifts__text{
+	font-family: 'SignikaMedium';
+	font-size: 1vw;
+	line-height: 2vw;
+}
+.gifts__btn{
+	font-family: SignikaSemiBold;
+	font-size: 1vw;
+	background-color: #FEC600;
+	margin-bottom: 1vw;
+	width: 50%;
+	margin-left: 25%;
+	line-height: 2vw;
+	border-radius: 1vw;
+	margin-top: 0.5vw;
+}
